@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:scrollbars="vertical"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        >
+
+<RadioGroup
+    android:id="@+id/rg"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="15dp"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentStart="true"
+    android:layout_gravity="center_horizontal">
+
+    <RadioButton
+        android:id="@+id/idFnd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Find"
+        android:paddingRight="10dp"
+        />
+    <RadioButton
+        android:id="@+id/idLst"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lost"
+        android:paddingRight="10dp"
+        />
+</RadioGroup>
+
+<EditText android:id="@+id/itmName"
+    android:layout_width="349dp"
+    android:layout_height="wrap_content"
+    android:hint="Enter Item Name"
+    android:gravity="center"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginTop="25dp"/>
+
+<EditText android:id="@+id/itmDesc"
+    android:layout_width="349dp"
+    android:layout_height="wrap_content"
+    android:hint=" Item Description"
+    android:gravity="center"
+    android:layout_gravity="top|center_horizontal"
+    android:layout_marginTop="15dp"
+    />
+<EditText android:id="@+id/itmBrand"
+    android:layout_width="349dp"
+    android:layout_height="wrap_content"
+    android:hint="Item Brand"
+    android:gravity="center"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginTop="15dp"
+    />
+
+
+<EditText android:id="@+id/itmColor"
+    android:layout_width="349dp"
+    android:layout_height="wrap_content"
+    android:hint="Item Color"
+    android:gravity="center"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginTop="15dp"
+    />
+
+
+<EditText android:id="@+id/cshAmt"
+    android:layout_width="349dp"
+    android:layout_height="wrap_content"
+    android:hint="Cash Amount"
+    android:gravity="center"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginTop="15dp"
+    />
+
+<EditText android:id="@+id/contPer"
+    android:layout_width="349dp"
+    android:layout_height="wrap_content"
+    android:hint=" Contact Person Name"
+    android:gravity="center"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginTop="15dp"
+    />
+
+<EditText android:id="@+id/contNum"
+    android:layout_width="349dp"
+    android:layout_height="wrap_content"
+    android:hint=" Contact Number"
+    android:gravity="center"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginTop="15dp"
+    />
+
+<EditText android:id="@+id/contEmail"
+    android:layout_width="349dp"
+    android:layout_height="wrap_content"
+    android:hint=" Contact Email"
+    android:gravity="center"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginTop="15dp"
+    />
+        <Button
+            android:id="@+id/idAdd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            />
+
+    </LinearLayout>
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content" android:layout_height="fill_parent"></ScrollView>
+    </LinearLayout>
